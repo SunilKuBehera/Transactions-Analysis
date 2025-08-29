@@ -1,0 +1,13 @@
+prefix=D:/Transactions Analysis/venv/Library
+exec_prefix=D:/Transactions Analysis/venv/Library
+libdir=D:/Transactions Analysis/venv/Library/lib
+sharedlibdir=D:/Transactions Analysis/venv/Library/lib
+includedir=D:/Transactions Analysis/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
